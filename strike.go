@@ -87,7 +87,9 @@ func makeRequest(question string) (string, error) {
 }
 
 func main() {
-	fmt.Println("\033[34m=== Grok CLI - Ask anything ===\033[0m")
+	fmt.Println("\033[34m=== Strike CLI - Ask anything ===\033[0m")
+	fmt.Println("\033[34m► Powered by Groq\033[0m")
+	fmt.Println("\033[34m► Default model: llama-3.3-70b-versatile\033[0m")
 	fmt.Println("Type your question and press Enter (or 'quit' to exit)")
 
 	reader := bufio.NewReader(os.Stdin)
