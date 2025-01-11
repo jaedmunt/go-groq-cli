@@ -3,6 +3,10 @@
 
 > Note: The name "Strike" was chosen to avoid confusion with Groq's official releases and for its CLI-friendly nature.
 
+## Demo
+
+![strike-cli](strike-cli.png)
+
 
 #### ⚡ Speed Above All
 - Built with [Go](https://go.dev/) for maximum performance and minimal footprint
