@@ -1,7 +1,7 @@
 # Strike
 ## A lightning fast AI Command line interface
 
-> Note: The name "Strike" was chosen to avoid confusion with Groq's official releases and for its CLI-friendly nature.
+> Note: The name "Strike" was chosen to avoid confusion with any Groq's current or future official releases.
 
 ## Demo
 
