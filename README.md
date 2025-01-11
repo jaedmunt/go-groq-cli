@@ -53,10 +53,11 @@
     ```bash
     strike "Tell me about Go programming"
     ```
-Or simply initiate the CLI
-    ```bash
-    strike
-    ```
+Or simply initiate the CLI:
+
+```bash
+strike 
+```
 
 if you want to go slow. 
 
