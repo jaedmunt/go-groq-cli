@@ -13,13 +13,21 @@
 ### Quick Start
 1. Build the executable:
     ```bash
-    go build -o strike
+    go build -o strike.exe strike.go
     ```
+
+> n.b It is probably smoother to temporarily disable realtime protection in Windows Defender for this step as it will probably flag this as being an unsigned.exe. You can see the code in `strike.go` so there is no alarm, but with it on it will probably quarantine it when you move it. 
+
+>Gotta go fast ⚡
+
+>🛡️ Be sure to re-enable it after you have moved it. Safety first. 🤓
+
 
 2. Add to system PATH:
     ```bash
     # Windows
-    move strike.exe %USERPROFILE%\go\bin
+    move strike.exe "C:/Program Files/strike/strike.exe"
+    setx PATH "%PATH%;C:\Program Files\strike"
 
     # Linux/macOS
     mv strike $HOME/go/bin
@@ -35,12 +43,22 @@
     source ~/.bashrc
     ```
 
+    >Obviously change 'your-api-key' for the one from groq. When you log in there. E.g `export GROQ_API_KEY='gsk-65s4g655bv4xzdf5z65j4x3665343z'`
+
+    *p.s that isn't the right length - I just spammed it but it should start with* `gsk-`
+
 4. Open command prompt (⊞ Win + R, type `CMD`)
 
 5. Start chatting!
     ```bash
     strike "Tell me about Go programming"
     ```
+Or simply initiate the CLI
+    ```bash
+    strike
+    ```
+
+if you want to go slow. 
 
 Messages stream directly in your terminal.
 
