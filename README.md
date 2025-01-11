@@ -47,7 +47,7 @@
     source ~/.bashrc
     ```
 
-    >Obviously change 'your-api-key' for the one from groq. When you log in there. E.g `export GROQ_API_KEY='gsk-65s4g655bv4xzdf5z65j4x3665343z'`
+    >Obviously change 'your-api-key' for the one from groq. When you log in there, there is a clear API keys tab on the left hand side to grab this. E.g `export GROQ_API_KEY='gsk-65s4g655bv4xzdf5z65j4x3665343z'`
 
     *p.s that isn't the right length - I just spammed it but it should start with* `gsk-`
 
